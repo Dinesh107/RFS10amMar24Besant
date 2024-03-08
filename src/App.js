@@ -6,14 +6,17 @@ import StatePractice from './Components/StatePractice';
 import DestructurePractice from './Components/DestructurePracticeFc';
 import DestructurePracticeFc from './Components/DestructurePracticeFc';
 import DestructurePracticeCc from './Components/DestructurePracticeCc';
+import MotherComponent from './Components/MotherComponent';
 
 function App() {
   return (
     <div className="App">
 
+      <MotherComponent/>
+
        {/* <DestructurePracticeFc name="Jeeva"  sportsName="Football"/> */}
 
-       <DestructurePracticeCc name= "Harish" sportsName= "Soccer"/>
+       {/* <DestructurePracticeCc name= "Harish" sportsName= "Soccer"/> */}
 
       {/* name="Jeeva"  sportsName="Football" */}
 
