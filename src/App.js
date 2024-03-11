@@ -7,12 +7,18 @@ import DestructurePractice from './Components/DestructurePracticeFc';
 import DestructurePracticeFc from './Components/DestructurePracticeFc';
 import DestructurePracticeCc from './Components/DestructurePracticeCc';
 import MotherComponent from './Components/MotherComponent';
+import CondIfElsePractice from './Components/CondIfElsePractice';
+import ListRenderPractice from './Components/ListRenderPractice';
 
 function App() {
   return (
     <div className="App">
 
-      <MotherComponent/>
+      <ListRenderPractice/>
+
+      {/* <CondIfElsePractice/> */}
+
+      {/* <MotherComponent/> */}
 
        {/* <DestructurePracticeFc name="Jeeva"  sportsName="Football"/> */}
 
