@@ -9,12 +9,18 @@ import DestructurePracticeCc from './Components/DestructurePracticeCc';
 import MotherComponent from './Components/MotherComponent';
 import CondIfElsePractice from './Components/CondIfElsePractice';
 import ListRenderPractice from './Components/ListRenderPractice';
+import CssInReactPractice from './Components/CssInReactPractice';
+import InlineCssPractice from './Components/InlineCssPractice';
 
 function App() {
   return (
     <div className="App">
 
-      <ListRenderPractice/>
+      <InlineCssPractice/>
+
+      {/* <CssInReactPractice heading1 = {true} /> */}
+
+      {/* <ListRenderPractice/> */}
 
       {/* <CondIfElsePractice/> */}
 
