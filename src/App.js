@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import React, {Fragment} from 'react';
 import WelcomeMessage from './Components/FunctionalComp';
 import WelcomeStudent from './Components/ClassComp';
 import StatePractice from './Components/StatePractice';
@@ -11,12 +12,21 @@ import CondIfElsePractice from './Components/CondIfElsePractice';
 import ListRenderPractice from './Components/ListRenderPractice';
 import CssInReactPractice from './Components/CssInReactPractice';
 import InlineCssPractice from './Components/InlineCssPractice';
+import FragmentsPractice from './Components/FragmentsPractice';
+import PureCompPractice from './Components/PureCompPractice';
+import NormalClassComp from './Components/NormalClassComp';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
 
-      <InlineCssPractice/>
+      {/* <NormalClassComp/> */}
+
+      <PureCompPractice/>
+
+      {/* <FragmentsPractice/> */}
+
+      {/* <InlineCssPractice/> */}
 
       {/* <CssInReactPractice heading1 = {true} /> */}
 
