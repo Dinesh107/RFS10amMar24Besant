@@ -15,14 +15,17 @@ import InlineCssPractice from './Components/InlineCssPractice';
 import FragmentsPractice from './Components/FragmentsPractice';
 import PureCompPractice from './Components/PureCompPractice';
 import NormalClassComp from './Components/NormalClassComp';
+import ParentForMemoComp from './Components/ParentForMemoComp';
 
 function App() {
   return (
     <div className='App'>
 
+      <ParentForMemoComp/>
+
       {/* <NormalClassComp/> */}
 
-      <PureCompPractice/>
+      {/* <PureCompPractice/> */}
 
       {/* <FragmentsPractice/> */}
 
