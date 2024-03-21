@@ -20,14 +20,24 @@ import ShareCountHocPractice from './Components/ShareCountHocPractice';
 import CommentCountHocPractice from './Components/CommentCountHocPractice';
 import EnhanceShares from './Components/ShareCountHocPractice';
 import EnhanceComments from './Components/CommentCountHocPractice';
+import ClassClickingWithoutHooks from './Components/ClassClickingWithoutHooks';
+import HooksClickingUseSatePractice from './Components/HooksClickingUseSatePractice';
+import UseEffectHookPractice from './Components/UseEffectHookPractice';
+
 
 function App() {
   return (
     <div className='App'>
 
-      <EnhanceShares/>
+      <UseEffectHookPractice/>
 
-      <EnhanceComments/>
+      {/* <HooksClickingUseSatePractice/> */}
+
+      {/* <ClassClickingWithoutHooks/> */}
+
+      {/* <EnhanceShares/> */}
+
+      {/* <EnhanceComments/> */}
 
       {/* <ShareCountHocPractice/> */}
 
