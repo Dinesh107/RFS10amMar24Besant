@@ -23,13 +23,16 @@ import EnhanceComments from './Components/CommentCountHocPractice';
 import ClassClickingWithoutHooks from './Components/ClassClickingWithoutHooks';
 import HooksClickingUseSatePractice from './Components/HooksClickingUseSatePractice';
 import UseEffectHookPractice from './Components/UseEffectHookPractice';
+import ComponentAUseContextPractice from './Components/ComponentAUseContextPractice';
 
 
 function App() {
   return (
     <div className='App'>
 
-      <UseEffectHookPractice/>
+      <ComponentAUseContextPractice/>
+
+      {/* <UseEffectHookPractice/> */}
 
       {/* <HooksClickingUseSatePractice/> */}
 
