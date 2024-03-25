@@ -1,11 +1,16 @@
-import React from 'react'
+import React, {useContext} from 'react'
 
-function ComponentDUseContextPractice(props) {
+import { UserContext } from './ComponentAUseContextPractice'
+
+function ComponentDUseContextPractice() {
+
+  const user = useContext(UserContext);
+
   return (
     <div className='box' >
         
         <h1>Component D</h1>
-        <h2>{`goodbye ${props.user}`}</h2>
+        <h2>{`goodbye ${user}`}</h2>
 
     </div>
   )
