@@ -1,13 +1,13 @@
 import React from 'react'
 import ComponentCUseContextPractice from './ComponentCUseContextPractice'
 
-function ComponentBUseContextPractice(props) {
+function ComponentBUseContextPractice() {
   return (
     <div className='box' >
         
         <h1>Component B</h1>
 
-        <ComponentCUseContextPractice user={props.user}/>
+        <ComponentCUseContextPractice/>
 
     </div>
   )
