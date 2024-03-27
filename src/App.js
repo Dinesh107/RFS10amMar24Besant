@@ -24,13 +24,16 @@ import ClassClickingWithoutHooks from './Components/ClassClickingWithoutHooks';
 import HooksClickingUseSatePractice from './Components/HooksClickingUseSatePractice';
 import UseEffectHookPractice from './Components/UseEffectHookPractice';
 import ComponentAUseContextPractice from './Components/ComponentAUseContextPractice';
+import UserHtttpGetList from './Components/UserHtttpGetList';
 
 
 function App() {
   return (
     <div className='App'>
 
-      <ComponentAUseContextPractice/>
+      <UserHtttpGetList/>
+
+      {/* <ComponentAUseContextPractice/> */}
 
       {/* <UseEffectHookPractice/> */}
 
