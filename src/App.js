@@ -25,13 +25,16 @@ import HooksClickingUseSatePractice from './Components/HooksClickingUseSatePract
 import UseEffectHookPractice from './Components/UseEffectHookPractice';
 import ComponentAUseContextPractice from './Components/ComponentAUseContextPractice';
 import UserHtttpGetList from './Components/UserHtttpGetList';
+import UserHttpPostForm from './Components/UserHttpPostForm';
 
 
 function App() {
   return (
     <div className='App'>
 
-      <UserHtttpGetList/>
+      {/* <UserHttpPostForm/> */}
+
+      {/* <UserHtttpGetList/> */}
 
       {/* <ComponentAUseContextPractice/> */}
 
