@@ -1,1 +1,85 @@
-Hai new commit 07/03/2024 - 5:13Pm - thursday
+function walkDog() {
+
+    return new Promise((resolve, reject) => {
+
+      setTimeout(()=> {
+
+        const dogwalked = true;
+
+        if(dogwalked) {
+           
+          resolve("You walk the dog!!");
+
+        } else {
+
+           reject("You didn't walk the dog");
+
+        }
+   
+       }, 2500);
+
+    });
+
+}
+
+function cleanKitchen() {
+
+     return new Promise((resolve, reject) => {
+
+      setTimeout(() => {
+
+        const kitchenCleaned = true; 
+  
+        if(kitchenCleaned) {
+
+          resolve("You clean the kitchen successfully!");
+
+        } else {
+
+             reject("You didn't clean the kitchen");
+
+        }
+
+      },3500);
+
+     });
+
+}
+
+
+function takeOutTrash() {
+
+  return new Promise((resolve, reject) => {
+
+    setTimeout(() => {
+
+     const trashTakeOut = true; 
+
+    if(trashTakeOut) {
+
+      resolve("You take out the trash !");
+
+    } else {
+
+        reject("you didn't take out the trash");
+
+    }
+
+  }, 1500);
+
+ });
+
+}
+
+
+// walkDog(() => {
+//     cleanKitchen(() => {
+//       takeOutTrash(() => console.log("You Finish all the tasks!!"));
+//     });
+// });
+
+walkDog().then(value => {console.log(value);  return cleanKitchen()})
+         .then(value => {console.log(value);  return takeOutTrash()})
+         .then(value => {console.log(value); console.log("You finsihed all the tasks!!!!")})
+
+         .catch(error => console.error(error));
